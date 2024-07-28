@@ -1,0 +1,21 @@
+{
+  "name": "playwright-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test",
+    "test-and-send-report": "npx playwright test && npm run utils/send-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^20.14.12"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.14"
+  }
+}
