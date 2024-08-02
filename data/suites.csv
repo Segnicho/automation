@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Aug 02 09:03:06 UTC 2024","Fri Aug 02 09:03:07 UTC 2024","524","chromium","tests/inventory.spec.ts","Inventory Page Tests","","","users can add items to the cart",""
+"passed","Fri Aug 02 09:03:07 UTC 2024","Fri Aug 02 09:03:07 UTC 2024","484","chromium","tests/inventory.spec.ts","Inventory Page Tests","","","users can remove items from the cart",""
+"passed","Fri Aug 02 09:03:08 UTC 2024","Fri Aug 02 09:03:08 UTC 2024","381","chromium","tests/login.spec.ts","","","","users can login successfully",""
+"passed","Fri Aug 02 09:03:07 UTC 2024","Fri Aug 02 09:03:08 UTC 2024","486","chromium","tests/inventory.spec.ts","Inventory Page Tests","","","users can view items in the cart",""
