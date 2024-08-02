@@ -13,9 +13,13 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.45.3",
-    "@types/node": "^20.14.12"
+    "@types/node": "^20.14.12",
+    "allure-commandline": "^2.29.0",
+    "allure-playwright": "^3.0.0-beta.7"
   },
   "dependencies": {
-    "nodemailer": "^6.9.14"
+    "nodemailer": "^6.9.14",
+    "moment": "^2.30.1",
+    "rimraf": "^6.0.1"
   }
 }
