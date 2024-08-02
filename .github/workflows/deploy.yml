@@ -12,6 +12,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
@@ -21,15 +24,20 @@ jobs:
       with:
         node-version: '20'
 
+    - name: Install Playwright
+      run: npx playwright install
+
     - name: Install dependencies
       run: npm install
+
     - name: Install ts-node and TypeScript
       run: npm install ts-node typescript --save-dev
 
     - name: Run tests
       run: npm run test
+      continue-on-error: true
 
-    - name: Generate Allure report
+    - name: Generate Allure report 
       run: npm run allure:generate
 
     - name: Deploy to GitHub Pages

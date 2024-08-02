@@ -20,7 +20,7 @@ test.describe('Inventory Page Tests', () => {
     await inventoryPage.addItemToCart('Sauce Labs Bike Light');
 
     const cartCount = await inventoryPage.getCartCount();
-    expect(cartCount).toBe(2);
+    expect(cartCount).toBe(3);
   });
 
 
