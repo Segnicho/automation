@@ -8,7 +8,9 @@
     "test": "npx playwright test",
     "test-and-send-report": "npx playwright test && npm run utils/send-report",
     "allure:generate": "allure generate ./allure-results --clean -o ./allure-report",
-    "allure:serve": "allure serve ./allure-results"
+    "allure:serve": "allure serve ./allure-results",
+    "allure-report": "npx allure generate allure-results -o allure-report --clean && allure open"
+
   },
   "keywords": [],
   "author": "",
