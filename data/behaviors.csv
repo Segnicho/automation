@@ -1,4 +1,4 @@
 "Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
-"","Title Verification","Check title of the Playwright homepage","1","0","0","0","0"
 "","","","2","0","4","0","0"
+"","Title Verification","Check title of the Playwright homepage","1","0","0","0","0"
 "","Navigation","Verify 'Get Started' link","0","0","1","0","0"
